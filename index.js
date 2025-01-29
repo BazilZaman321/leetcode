@@ -20,3 +20,13 @@ var reverseString = function(s) {
 };
 
 console.log(reverseString(["h","e","l","l","o"]));
+
+
+// 415.  add string
+
+var addStrings = function(num1, num2) {
+    let one=BigInt(num1);
+    let two=BigInt(num2);
+    let three=one+two;
+    return three.toString();
+};
