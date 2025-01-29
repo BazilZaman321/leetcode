@@ -30,3 +30,6 @@ var addStrings = function(num1, num2) {
     let three=one+two;
     return three.toString();
 };
+
+
+console.log("hello");
