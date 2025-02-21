@@ -32,4 +32,14 @@ var addStrings = function(num1, num2) {
 };
 
 
-console.log("hello");
+
+// 151 reverse word in string
+
+var reverseWords = function(s) {
+    return s.trim().split(/\s+/).reverse().join(" ");
+  };
+
+  console.log(reverseWords( "the sky is blue"));
+  console.log(reverseWords( "  hello world  "));
+  console.log(reverseWords("a good   example"));
+  
