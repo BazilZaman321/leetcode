@@ -43,3 +43,15 @@ var reverseWords = function(s) {
   console.log(reverseWords( "  hello world  "));
   console.log(reverseWords("a good   example"));
   
+
+
+  //69. Sqrt(x)
+
+
+  var mySqrt = function(x) {
+    return Math.floor(Math.sqrt(x));
+};
+
+
+console.log(mySqrt(4)); 
+console.log(mySqrt(8));
