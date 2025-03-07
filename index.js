@@ -76,3 +76,12 @@ var fizzBuzz = function (n) {
 };
 
 console.log(fizzBuzz(3));
+
+
+// 242  valid anagram
+
+var isAnagram = function(s, t) {
+    return s.split('').sort().join('') === t.split('').sort().join('');
+};
+console.log(isAnagram("anagram", "nagaram"));
+console.log(isAnagram("rat", "car"));
