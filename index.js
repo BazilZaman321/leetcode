@@ -85,3 +85,14 @@ var isAnagram = function(s, t) {
 };
 console.log(isAnagram("anagram", "nagaram"));
 console.log(isAnagram("rat", "car"));
+
+
+//  1523. Count Odd Numbers in an Interval Range 
+
+
+var countOdds = function(low, high) {
+    return Math.floor((high + 1) / 2) - Math.floor(low / 2);
+};
+
+console.log(countOdds(3, 7));
+console.log(countOdds(8, 10));
